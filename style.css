@@ -537,6 +537,35 @@ video.r2s-video-item {
   border-left: 3px solid #000;
 }
 
+.additional-video-row {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.additional-video-item {
+  height: 220px;
+  width: auto;
+  border-radius: 15px;
+  background-color: #000;
+}
+#input-video-cropped {
+  width: 350px; /* Controls the visible width */
+  object-fit: cover; /* Crops the video to fit the width */
+}
+#input-video-cropped2 {
+  width: 250px; /* Controls the visible width */
+  object-fit: cover; /* Crops the video to fit the width */
+}
+#input-video-cropped3 {
+  width: 300px; /* Controls the visible width */
+  object-fit: cover; /* Crops the video to fit the width */
+}
+#input-video-cropped4 {
+  width: 250px; /* Controls the visible width */
+  object-fit: cover; /* Crops the video to fit the width */
+}
+
 /* Styling for individual videos within the gallery */
 .video-gallery .gallery-video {
   /* width: auto; */ /* Let height dictate width for consistency */
